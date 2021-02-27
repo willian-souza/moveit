@@ -1,7 +1,6 @@
 .profileContainer{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .profileContainer > img{
@@ -27,4 +26,10 @@
 
 .profileContainer div p img{
     margin-right: 0.5rem ;
+}
+
+@media(max-width:720px) {
+    .profileContainer {
+        justify-content: center;
+    }
 }
