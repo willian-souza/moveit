@@ -18,6 +18,18 @@
     --blue-twitter: #2aa9e0;
 }
 
+body.light-mode{
+    /* background-color: #333;
+    color: #333; */
+    transition: background-color 0.5s ease;
+} 
+  
+body.dark-mode{
+    background-color: #10171d;
+    color: #dfdfdf;
+    transition: background-color 0.5s ease;
+}
+
 @media(max-width:1080px){
     html{
         font-size: 93.75%;
