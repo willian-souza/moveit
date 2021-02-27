@@ -31,6 +31,7 @@ export default function Home(props: HomeProps) {
           <title>Início | move.it </title>
         </Head>
 
+        <ToggleSwitchDarkMode />
         <ExperienceBar />
         
 

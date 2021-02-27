@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { ToggleSwitch } from 'react-dragswitch'
-import 'react-dragswitch/dist/index.css'
+import  DarkModeToggle from 'react-dark-mode-toggle'
+import styles from '../styles/components/ToogleSwitchDarkMode.module.css'
 
 
 export function ToggleSwitchDarkMode() {
@@ -8,9 +8,8 @@ export function ToggleSwitchDarkMode() {
 
 
     return (
-        <label>
-            <span>Click me</span>
-            <ToggleSwitch checked={checked} onChange={(e) => { setChecked(e) }} />
+        <label className={styles.toogleDarkMode}>
+            <DarkModeToggle checked={checked} onChange={(e) => { setChecked(e) }} size={60}/>
         </label>
     )
 }
