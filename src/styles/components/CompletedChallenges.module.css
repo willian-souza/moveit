@@ -12,8 +12,21 @@
 
 .completedChallengesContainer span:first-child{
     font-size: 1.25rem;
+    
 }
 
 .completedChallengesContainer span:last-child{
     font-size: 1.5rem;
+}
+
+
+@media(max-width:720px) {
+    .completedChallengesContainer {
+        justify-content: center;
+    }
+
+    .completedChallengesContainer span:first-child{
+        margin-right: 1.25rem;
+        
+    }
 }
