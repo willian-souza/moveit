@@ -8,8 +8,6 @@ export function ToggleSwitchDarkMode() {
     const [isDarkMode, setIsDarkMode] = useState(()=>false)
     const darkMode = useDarkMode(false)
     
-
-
     useEffect(()=>{
         darkMode.toggle()
     },[isDarkMode])

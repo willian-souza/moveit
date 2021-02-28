@@ -1,9 +1,9 @@
 .challengeBoxContainer{
     height: 100%;
 
-    background: var(--white);
+    background: var(--white-background);
     border-radius: 5px;
-    box-shadow: 0 0 60px #e2aaaa0d;
+    box-shadow: 0 0 60px var(--shadow);
     padding: 1.5rem 2rem;
 
     display: flex;
@@ -89,7 +89,7 @@
     border: 0;
     border-radius: 5px;
 
-    color: var(--white);
+    color: var(--white-text);
 
     font-size: 1rem;
     font-weight: 600;
