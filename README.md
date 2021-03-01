@@ -4,7 +4,7 @@
 <h1>
     <img src="public/movit.gif">
     <h3 align="center"> 
-        Access the application here 👉 <a href="https://moveit-qyq8n4sli-willian-souza.vercel.app/" target="_blank">move.it<a>
+        Access the application here 👉 <a href="https://moveit-willian-souza.vercel.app/" target="_blank">move.it<a>
     <h3>
 <h1>
 
@@ -33,6 +33,8 @@ The move.it consists of an application based on the Pomodoro Technique. This tec
 - Each challenge has an amount of XP that the user earns when completing the challenge, and the user will level up as he completes the challenges.
 - The user only receives a challenge if he completes the 25 minutes of study/work (does not have the option to pause).That is, if he abandons the cycle, for whatever reason, before its end, the timer returns to the initial state.
 
+User data such as, completed challenges and level are saved in the browser cookie
+
 This application was developed during the **Rocketseat Next Level Week 4**.
 
 But i added some features:
@@ -43,7 +45,7 @@ But i added some features:
 
 
 - Dark Mode
-    <img src="public/movit-darkmode.gif">
+<img src="public/movit-darkmode.gif">
 
 ---
 
